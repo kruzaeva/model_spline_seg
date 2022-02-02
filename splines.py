@@ -1,6 +1,5 @@
 import numpy as np
 import math
-import cv2
 import numpy as np
 import math
 from matplotlib import pyplot as plt
@@ -15,9 +14,9 @@ def bilinear_interpolate(im, y, x):
     """bilinear interpolation function from cv2
 
     Args:
-        im ([type]): [description]
-        y ([type]): [description]
-        x ([type]): [description]
+        im ([type]): image to interpolate
+        y ([type]): x
+        x ([type]): y
 
     Returns:
         [type]: [description]
