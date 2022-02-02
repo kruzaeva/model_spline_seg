@@ -59,7 +59,7 @@ def coefficients_matrix_generator(control_points=6, num_points=50):
 
 def calculate_loss_green(parameters, alpha, integrx, integry, gradient, integrgmapx, 
                                         integrgmapy, coefficients_matrix,
-                   area_coefficient=-1,gmap_coefficient=-1):
+                   area_coefficient=500,gmap_coefficient=500):
     """[summary]
 
     Args:
@@ -71,8 +71,8 @@ def calculate_loss_green(parameters, alpha, integrx, integry, gradient, integrgm
         integrgmapx ([type]): cumulative sum of the geodesic distance map along x direction
         integrgmapy ([type]): cumulative sum of the geodesic distance map along x direction
         coefficients_matrix ([type]): B-matrix
-        area_coefficient (int, optional): [description]. Defaults to -1.
-        gmap_coefficient (int, optional): [description]. Defaults to -1.
+        area_coefficient (int, optional): [description]. Defaults to 500.
+        gmap_coefficient (int, optional): [description]. Defaults to 500.
 
     Returns:
         [type]: [description]
