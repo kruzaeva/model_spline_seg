@@ -18,7 +18,7 @@ The training data you can find [here](https://github.com/kruzaeva/model_spline_s
 ## Segmentation step
 The segmentation requires the image and the .txt file with bounding boxes (Yolo format).
 
-For the test data segmentation, we provide the bounding boxes [the bounding boxes](https://github.com/kruzaeva/model_spline_seg/tree/master/data/gtframes) for every image in [image sequence](https://github.com/kruzaeva/model_spline_seg/blob/master/data/name1.tif)
+For the test data segmentation, we provide [the bounding boxes](https://github.com/kruzaeva/model_spline_seg/tree/master/data/gtframes) for every image in [image sequence](https://github.com/kruzaeva/model_spline_seg/blob/master/data/name1.tif)
 We also provide the anaconda environment file "environment.yml" with all of the dependencies.
 
 Currently, we offer only the rod-model segmentation (to be updated).
